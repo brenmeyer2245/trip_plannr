@@ -10,5 +10,34 @@
 body {
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: #C1B5AD;
+  background-color: #ffcfcf;
+}
+
+header{
+  color:#b78080;
+}
+
+.flex{
+  display: flex;
+}
+
+#menuCol{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+#searches {
+  background-color: #0000ff75;
+  display: block;
+  width: 15em;
+  z-index: 1;
+  flex: 0 0 33%
+}
+
+#itinerary{
+  display: flex;
+  background-color: #ffa50082;
+  flex: 0 0 66%;
+  z-index: 1;
 }
